@@ -1,0 +1,288 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #f0f0f0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+main {
+    flex: 1;
+}
+
+.logo {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8em;
+    text-transform: capitalize;
+    color: #3a6cf4;
+}
+
+.navigation {
+    font-size: 1.1em;
+    font-weight: 500;
+        color: #3a6cf4;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    padding-left: 30px;
+    color: #3a6cf4;
+
+}
+
+.navigation a:hover {
+    color: #fc361c;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    color: rgb(25, 124, 6);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: centre;
+    background: url(img/background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20%;
+    padding-left: 10%;
+}
+
+.main h2 {
+    font-weight: 500;
+    color: #f0f0f0;
+    font-size: 1.4em;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4e9eff;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    font-weight: 700;
+    color: #f0f0f0;
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: #f0f0f0;
+    background-color: #4e9eff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: #2f67cd;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    font-size: 1.7em;
+    color: #f0f0f0;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 20em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card .icon {
+    color: #3a6cf4;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #3a6cf4;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.info p {
+    color: #3a6cf4;
+    font-size: 0.9em;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.contact .icon {
+    font-size: 4.5em;
+}
+
+.contact .info h3 {
+    color: #000;
+}
+
+.contact .info p {
+    font-size: 1em;
+}
+./* Skills Section */
+.skills {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 50px 20px;
+    margin: 20px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skills-container :hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+
+}
+
+.skill-box {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 200px; /* Adjust width as needed */
+}
+.skill-box :hover{
+    transform: scale(1.1);
+
+
+}
+
+.skill-box i {
+    font-size: 2.5em;
+    color: #4e9eff; /* Green icon color */
+    margin-bottom: 15px;
+}
+
+.skill-box p {
+    font-size: 1.2em;
+    color: #555; /* Dark gray text color */
+}
+
+
+footer {
+    background-color: #111;
+    width: 100%;
+}
+
+.footercontainer {
+    padding: 70px 30px 20px;
+    width: 100%;
+}
+
+.socialmedia-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialmedia-icons a {
+    margin: 10px;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.socialmedia-icons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialmedia-icons a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialmedia-icons a:hover i {
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+
+.fooot {
+    background-color: #000;
+    text-align: center;
+    padding: 5px;
+}
+
+.fooot p {
+    color: white;
+}
+
+.fooot p span {
+    color: red;
+}
